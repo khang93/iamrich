@@ -13,6 +13,11 @@
 		7AF0D6EC1C7ACA430077A76B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF0D6EA1C7ACA430077A76B /* Main.storyboard */; };
 		7AF0D6EE1C7ACA440077A76B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AF0D6ED1C7ACA440077A76B /* Assets.xcassets */; };
 		7AF0D6F11C7ACA440077A76B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF0D6EF1C7ACA440077A76B /* LaunchScreen.storyboard */; };
+		7AF0D6FA1C7AD96C0077A76B /* ruby.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF0D6F91C7AD96C0077A76B /* ruby.png */; };
+		7AF0D6FF1C7B00C80077A76B /* beautifulgirl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AF0D6FB1C7B00C80077A76B /* beautifulgirl.jpg */; };
+		7AF0D7001C7B00C80077A76B /* car.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AF0D6FC1C7B00C80077A76B /* car.jpg */; };
+		7AF0D7011C7B00C80077A76B /* dola.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AF0D6FD1C7B00C80077A76B /* dola.jpg */; };
+		7AF0D7021C7B00C80077A76B /* house.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AF0D6FE1C7B00C80077A76B /* house.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		7AF0D6ED1C7ACA440077A76B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AF0D6F01C7ACA440077A76B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AF0D6F21C7ACA440077A76B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AF0D6F91C7AD96C0077A76B /* ruby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ruby.png; sourceTree = "<group>"; };
+		7AF0D6FB1C7B00C80077A76B /* beautifulgirl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beautifulgirl.jpg; sourceTree = "<group>"; };
+		7AF0D6FC1C7B00C80077A76B /* car.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car.jpg; sourceTree = "<group>"; };
+		7AF0D6FD1C7B00C80077A76B /* dola.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dola.jpg; sourceTree = "<group>"; };
+		7AF0D6FE1C7B00C80077A76B /* house.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = house.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,7 @@
 				7AF0D6E71C7ACA430077A76B /* ViewController.h */,
 				7AF0D6E81C7ACA430077A76B /* ViewController.m */,
 				7AF0D6EA1C7ACA430077A76B /* Main.storyboard */,
+				7AF0D6F81C7AD9460077A76B /* Image */,
 				7AF0D6ED1C7ACA440077A76B /* Assets.xcassets */,
 				7AF0D6EF1C7ACA440077A76B /* LaunchScreen.storyboard */,
 				7AF0D6F21C7ACA440077A76B /* Info.plist */,
@@ -77,6 +88,18 @@
 				7AF0D6E21C7ACA430077A76B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AF0D6F81C7AD9460077A76B /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				7AF0D6FB1C7B00C80077A76B /* beautifulgirl.jpg */,
+				7AF0D6FC1C7B00C80077A76B /* car.jpg */,
+				7AF0D6FD1C7B00C80077A76B /* dola.jpg */,
+				7AF0D6FE1C7B00C80077A76B /* house.jpg */,
+				7AF0D6F91C7AD96C0077A76B /* ruby.png */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +159,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AF0D7001C7B00C80077A76B /* car.jpg in Resources */,
 				7AF0D6F11C7ACA440077A76B /* LaunchScreen.storyboard in Resources */,
+				7AF0D6FA1C7AD96C0077A76B /* ruby.png in Resources */,
+				7AF0D7011C7B00C80077A76B /* dola.jpg in Resources */,
+				7AF0D7021C7B00C80077A76B /* house.jpg in Resources */,
 				7AF0D6EE1C7ACA440077A76B /* Assets.xcassets in Resources */,
+				7AF0D6FF1C7B00C80077A76B /* beautifulgirl.jpg in Resources */,
 				7AF0D6EC1C7ACA430077A76B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
